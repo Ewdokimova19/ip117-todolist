@@ -6,9 +6,9 @@ function viewDiv(){
   if (addClick==2) document.getElementById("elem1").style.display = "block";   
   if (addClick==3) document.getElementById("elem2").style.display = "block";   
   if (addClick==4) document.getElementById("elem3").style.display = "block";
-   if (addClick==5) document.getElementById("elem3").style.display = "block";
-    if (addClick==6) document.getElementById("elem3").style.display = "block";
-   if (addClick==7) {document.getElementById("elem4").style.display = "block";  addClick = 0; }  
+   if (addClick==5) document.getElementById("elem4").style.display = "block";
+    if (addClick==6) document.getElementById("elem5").style.display = "block";
+   if (addClick==7) {document.getElementById("elem6").style.display = "block";  addClick = 0; }  
 };
 
 function delNode(el){el.parentNode.parentNode.remove()}
